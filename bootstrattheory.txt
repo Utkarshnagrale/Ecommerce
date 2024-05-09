@@ -1,0 +1,137 @@
+1]registration form
+2]login form
+3]product page
+    ->user see all products
+    ->filters[product category fi]lter,price,range file
+
+4]product detail page
+5]cart page
+6]place order
+7]about page
+8]contact page
+
+what is bootstratp?
+=============
+is a css framework.
+Bootsrtap is a compile css file which contains
+predefined classes that can be used on html elements to make 
+good looking User interface.
+Bootstrap provides grid structure.
+browser is divved into rows and columns.
+Intersection of rows and column form grid
+structure.
+--|--|--|--|--|--|--|--|--|--|--|--|---------------------
+with the help of this grid tsurcture HTML elements can be placed
+properly at exact location on the browser.
+
+browser provides 12 columns grid struture.
+means entire browser screen is divided into
+12 column.
+
+Linking Bootstrap in project:
+============================
+1]online CDN(contentd delivery network)
+2]offline
+
+breakpoint:
+============
+screen size>=1000px 4 product in a row=>layout 1
+screen size<1000px 1 product in a row=>layout 2
+
+responsive web pages
+===============
+layout or structure of web pages changes from 
+one form to another is callled as breakpoint
+
+Breakpoint	    Class infix	       Dimensions    range
+Extra small	       None	            <576px      0px  and <576 or 575px
+Small	            sm	             ≥576px      576px and 767
+Medium	            md	             ≥768px     768px and 991px
+Large	            lg	             ≥992px     992px and 1199px
+Extra large	        xl	             ≥1200px   1200px and 1399px
+Extra extra large	xxl	              ≥1400px  1400px and above
+
+container
+row=>12 columns
+
+row=>col=>occupying 12 col width
+row=>col col=>
+row=> col col col=>
+row =>col col col col =>
+
+regsitartion.html:
+================
+username:------
+password:-------
+confirm password:---------
+   register
+   Already user?login
+
+   margin and padding:
+   =================
+   margin =>external space between elements and browser boundaries
+   padding=>internal space within a element
+   margin=>m
+   margin-top=>mt
+   marging-bottom=>mb
+   margin-left=>ms             left(start)------------right(end)
+   margin-right=>me
+   padding=>p
+   padding-top=>pt
+   padding-boottom=>pb
+   padding-left=>ps
+   padding-right=>pe
+   margin-xaxis=>mx[ms and me]
+   margin-yaxis=my[mt and mb]
+   spacing=>1,2,3,4,5
+
+   login.html:
+   ==========
+   username:------------
+   password:-----------
+   login Not a user?Register
+
+   home page or product page or index.html
+   ============================
+   navigation bar
+   Home About Cart Contact Login Regsiter Logout 
+
+   row 1=>col-md-12=>navigation bar code
+   row 2=>filter and product
+   <------------------------------------------------------>
+   <---filter-------><---------products----------------->
+   col-md-4             col-md-8
+                         row=>12 col
+                         col-4    col-4    col-4
+    row 3=>footer code
+    <------------------------------------------------------>
+    <-------------><----------------><------------------->
+    col-md-4       col-md-4          col-md-4
+    Addres          Quick links       connect us
+
+product_detail.html:
+================
+row1=>navigation code(header code)
+row2=>prodcut detail
+     <-------------------------------------------------->
+     <--------------------><----------------------------->
+      col-md-6                col-md-6
+      image                   product details
+row3=>footer code
+
+cart.html:
+=========
+row1=>header code
+row 2=>
+<----------------------------------------------->
+col-md-9                col-md-3
+user details            Total price section
+row<-------------------->
+    col-md-4   col-md-8
+    image      product details
+product details
+row3=>footer code
+
+place_order.html:
+=================
+copy cart.html code and paste in this page
